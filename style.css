@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+@keyframes spider-swing {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(-30deg);
+  }
+}
+img {
+  transform-origin: top left;
+  animation: spider-swing 4s ease-in-out infinite alternate;
+}
+/*# sourceMappingURL=style.css.map */
